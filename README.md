@@ -12,7 +12,7 @@ The CUSTOMER LIST part is designed to show a list of all the companies that we h
 In the ADD COMPANY part, the client has a form available to add all the information of a company manually to the database.
 
 The code is very simple, implemented with Vanilla Js, it works by importing customer information with the Fetch method.
-The URL ordering method within the page is with the hash #home, #List and #New.
+The URL ordering method within the page is with the hash #home, #Listado and #Nuevo.
 
 The file "index.html" contains only the index of the web with all the HTML elements.
 The file "tabla.json" contains the database that I then import with fetch.
