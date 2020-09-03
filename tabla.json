@@ -1,0 +1,49 @@
+[
+    {    "nombre": "Baloo",
+         "id":23,
+         "cuit": 30715929712,
+         "firmantes":["Gustavo Brun", "Silvio Spitalnik "],
+         "calificacion":true,
+         "condiciones":true,
+         "telefono":[1166134422, 47210089],
+         "mail":"Administracion2@baloo.com.ar",
+         "endeudamiento" : 
+                            { "prestamo" : 198000,
+                              "descuentodecheque": 30000,
+                              "tarjeta" : 153000 
+                            }
+                         
+    },
+    
+        {    "nombre": "Macro",
+             "id":89,
+             "cuit": 307159293452,
+             "firmantes":["Jorge Brito", "Gustavo Manriquez "],
+             "calificacion":true,
+             "condiciones":true,
+             "telefono":[52226500, 1566090242],
+             "mail":"macrofondos@grupomacro.com.ar",
+             "endeudamiento" : 
+                                { "prestamo" : 19800008583,
+                                  "descuentodecheque": 0,
+                                  "tarjeta" : 153000000 
+                                }
+                             
+        },
+        
+            {    "nombre": "Galicia",
+                 "id":23,
+                 "cuit": 30712759712,
+                 "firmantes":["Ricardo Fernandez", "Federico Luquez "],
+                 "calificacion":true,
+                 "condiciones":false,
+                 "telefono":[1166134411, 47350089],
+                 "mail":"galiciarrhh@galicia.com.ar",
+                 "endeudamiento" : 
+                                    { "prestamo" : 240002,
+                                      "descuentodecheque": 3000024,
+                                      "tarjeta" : 35040 
+                                    }
+                                 
+            }
+        ] 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title >Siebel Financial Services</title>
+    <link rel="stylesheet" href="estilos.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"/>
+      <link rel="icon" type="image/png" href="/aguila.png"  />
+   
+  </head>
+  <body> 
+      <!---------------- Empieza NAV----------------------->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <ul class="navbar-nav">
+        <div class="div-navbar"> 
+          <li class="nav-item">
+            <a class="nav-link" href="#home"id='btnHome'> Home</a>
+          </li>
+        </div>
+
+        <div class="div-navbar"> 
+          <li class="nav-item">
+            <a class="nav-link" href="#listado" id="btnListado">Listado Clientes</a>
+          </li>
+        </div>
+
+        <div class="div-navbar"> 
+          <li class="nav-item">
+            <a class="nav-link" href="#nuevaempresa" id="btnNuevo"> Agregar Empresa</a>
+          </li>
+        </div>
+
+
+      </ul>
+
+
+
+
+
+    </nav>
+     
+    
+  <!-------------------  FORM BUSQUEDA------------------------>
+  <div id="container"> 
+    <div id="home"> 
+      <form action="" id="form">
+        <input id="input" type="text" placeholder="Ingrese Empresa" autocomplete="off"/>
+            
+        <button id="btn" onclick="traerDatos()" type="submit">Consultar</button>
+      </form>
+      <div class="jumbotron md-5" id="container1" style="display: none;">
+          <span class="badge badge-info badge-pill" id="liNombreEmpresa"></span> <br>
+          <span class="badge badge-info badge-pill" id="liCuit"></span><br>
+          <span class="badge badge-info badge-pill" id="liFirmantes"></span><br>
+          <span class="badge badge-info badge-pill" id="litelefonos"></span><br>
+          <span class="" id="licalificacion"></span>
+          <span class="" id="licondiciones"></span> <br>
+          <span class="badge badge-info badge-pill" id="endeudamiento"></span>
+          <div>
+            <ul>
+              <li id="prestamo" class="badge badge-warning badge-pill"></li><br>
+              <li id="DescuentoCheque" class="badge badge-warning badge-pill"></li><br>
+              <li id="tarjeta" class="badge badge-warning badge-pill"></li><br>
+            </ul>
+          </div>
+        </tr>
+      </div> 
+    </div>
+
+<!--------------------LISTADO---------------------->
+    <div id="listado">
+    </div>
+
+ <!---------------NUEVA CARGA------------------> 
+    <div id="nuevo">
+    </div>
+
+<!-----------------FOOTER---------------------->
+<div id="footer1"> 
+  <footer id="footerIn">
+    <a id="iconoFooter" href="#home">
+      <img id="imgFooter" src="aguila.png" style="width: 60px; border-radius: 15px;" alt="Home" >
+      </img>
+    </a>
+    Todos los derechos reservados &reg; Buenos Aires, Argentina 2020
+  </footer >
+</div>
+    <script src="nuevaEmpresa.js"></script>
+    <script src="home.js"></script>
+    <script src="listado.js"></script>
+
+  </body>
+</html>
