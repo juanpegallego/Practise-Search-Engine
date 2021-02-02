@@ -1,5 +1,5 @@
-# practise-Crm
-Its a search web  engine for companies
+# Practise-Crm
+Its like a CRM searching web engine for companies
 
 -The main idea of the page is to integrate and practice concepts of a SPA.-
 
